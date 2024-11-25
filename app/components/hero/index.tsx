@@ -1,4 +1,5 @@
 import { ScrollRevealEffect, Button, ScrollRevealRightEffect } from "@/app/utils";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
       </section>
       <ScrollRevealRightEffect>
           <div>
-            <img
+            <Image
               src="/media/joaoDev.webp"
               alt="Joao Dev"
               className="absolute bottom-0 left-0 sm:w-80 w-40 h-auto"

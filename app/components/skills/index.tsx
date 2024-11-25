@@ -1,4 +1,4 @@
-import { Skil, ScrollRevealEffect, ScrollRevealRightEffect } from '@/app/utils'
+import { Skil, ScrollRevealRightEffect } from '@/app/utils'
 
 export default function Skill() {
   const skill = [
@@ -15,7 +15,7 @@ export default function Skill() {
       <ScrollRevealRightEffect>
         <div className="flex flex-wrap justify-center gap-3">
           {skill.map((skill, index) => (
-            <Skil number={index} text={`${skill}`} />
+            <Skil key={index} number={index} text={`${skill}`} />
           ))}
         </div>
       </ScrollRevealRightEffect>

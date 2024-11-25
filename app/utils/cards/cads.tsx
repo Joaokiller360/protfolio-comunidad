@@ -1,4 +1,5 @@
 import { Button, Skills, ScrollRevealEffect, ScrollRevealRightEffect } from '@/app/utils'
+import Image from "next/image";
 
 interface ButtonNavProps {
   title?: string;
@@ -39,7 +40,7 @@ export default function Cards({ title = '', description = '', hrfCode = '', hrfD
               </div>
             </ScrollRevealRightEffect>
             <div className='pt-5'>
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-xl" src="https://dummyimage.com/420x260" />
+              <Image alt="ecommerce" className="object-cover object-center w-full h-full block rounded-xl" src="https://dummyimage.com/420x260" />
             </div>
 
             <div className='flex justify-around pt-5'>

@@ -1,5 +1,5 @@
 import { ScrollRevealEffect, ScrollRevealRightEffect } from '@/app/utils'
-
+import Image from 'next/image';
 export default function About() {
   return (
     <section className="flex justify-center items-center w-full py-16" id="about">
@@ -19,7 +19,7 @@ export default function About() {
               </span>
             </p>
             <div className='flex justify-center h-auto w-full'>
-              <img className='sm:w-80 w-40 h-auto' src="/media/joaoCompu.webp" alt="joaoCompu" />
+              <Image className='sm:w-80 w-40 h-auto' src="/media/joaoCompu.webp" alt="joaoCompu" />
             </div>
           </div>
         </ScrollRevealRightEffect>

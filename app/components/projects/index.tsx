@@ -1,4 +1,4 @@
-import { Cards, Skills, Button } from '@/app/utils'
+import { Cards } from '@/app/utils'
 
 export default function Projects() {
 
