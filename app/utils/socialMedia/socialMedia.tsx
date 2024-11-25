@@ -1,6 +1,5 @@
 import { socialMedia } from '@/data'
 import Link from 'next/link'
-import { text } from 'stream/consumers'
 
 export default function SocialMedia() {
   return (

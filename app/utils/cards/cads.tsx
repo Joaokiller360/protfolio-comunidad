@@ -1,4 +1,4 @@
-import { Button, Skills, ScrollRevealEffect, ScrollRevealRightEffect } from '@/app/utils';
+import { Button, ScrollRevealEffect, ScrollRevealRightEffect } from '@/app/utils';
 import { Image } from "@nextui-org/react";
 
 interface ButtonNavProps {

@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 
-export default function ErrorPage({ error }: { error: Error }) {
+export default function NotFound({ error }: { error: unknown }) {
   return (
     <>
       <section className='text-gray-100 w-full'>

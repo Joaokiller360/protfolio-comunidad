@@ -1,5 +1,5 @@
 import { Skil, ScrollRevealRightEffect } from '@/app/utils';
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt } from 'react-icons/fa';
 import { SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, SiTailwindcss, SiWordpress } from 'react-icons/si';
 
 export default function Skill() {
