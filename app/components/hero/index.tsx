@@ -1,4 +1,4 @@
-import { ScrollRevealEffect, Button, ScrollRevealRightEffect } from "@/app/utils";
+import { ScrollRevealEffect, Button, ScrollRevealRightEffect, SocialMedia } from "@/app/utils";
 import { Image } from "@nextui-org/react";
 
 export default function Hero() {
@@ -10,18 +10,25 @@ export default function Hero() {
             <h1 className="text-5xl font-bold mb-4 gradient-text">
               Hola, soy Joao Barres 👋
             </h1>
-            <p className="text-xl mb-8 text-muted-foreground">
-              Desarrollador Web Full Stack
+            <p className="text-xl mb-4 text-muted-foreground">
+              Desarrollador Web / Junior
             </p>
-            <Button hrf="#projects" text="Ver mis proyectos" />
+            
+            <SocialMedia />
+
+          </ScrollRevealEffect>
+          <ScrollRevealEffect>
+            <div className="pt-5">
+              <Button hrf="#projects" text="Ver mis proyectos" />
+            </div>
           </ScrollRevealEffect>
         </div>
       </section>
       <ScrollRevealRightEffect>
-          <div className="absolute bottom-0 left-0 sm:w-80 w-40 h-auto">
-            <Image src="/media/joaoDev.webp" alt="JoaoDev" />
-          </div>
-        </ScrollRevealRightEffect>
+        <div className="absolute bottom-0 left-0 sm:w-80 w-40 h-auto">
+          <Image src="/media/joaoDev.webp" alt="JoaoDev" />
+        </div>
+      </ScrollRevealRightEffect>
     </>
   );
 }

@@ -2,6 +2,7 @@ import { ScrollRevealEffect, ScrollRevealRightEffect } from './animation/animati
 import { Button, ButtonNav } from './button/button'
 import { Skills, Skil } from './skills/skills'
 import Cards from './cards/cads'
+import SocialMedia from './socialMedia/socialMedia'
 
 export {
   ScrollRevealEffect,
@@ -10,5 +11,6 @@ export {
   ButtonNav,
   Skills,
   Skil,
-  Cards
+  Cards,
+  SocialMedia
 }

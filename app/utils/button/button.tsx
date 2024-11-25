@@ -10,7 +10,7 @@ export function Button({ hrf = '', text = '' }: LogoProps) {
     <div>
       <Link
         href={hrf}
-        className='group relative inline-flex items-center overflow-hidden px-8 py-3 text-base font-medium hover:bg-colorButton hover:text-white rounded-2xl transition-all'
+        className='group relative inline-flex items-center overflow-hidden px-8 py-3 text-base font-medium border-2 text-colorButton border-colorButton hover:bg-colorButton hover:text-white rounded-2xl transition-all'
       >
         <span className='absolute -end-full transition-all group-hover:end-4'>
           <svg className='size-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
