@@ -1,5 +1,6 @@
 import { ScrollRevealEffect, ScrollRevealRightEffect } from '@/app/utils'
-import Image from 'next/image';
+import { Image } from "@nextui-org/react";
+
 export default function About() {
   return (
     <section className="flex justify-center items-center w-full py-16" id="about">

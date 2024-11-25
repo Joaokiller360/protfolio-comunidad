@@ -1,5 +1,5 @@
 import { Button, Skills, ScrollRevealEffect, ScrollRevealRightEffect } from '@/app/utils'
-import Image from "next/image";
+import { Image } from "@nextui-org/react";
 
 interface ButtonNavProps {
   title?: string;

@@ -14,8 +14,8 @@ export default function Projects() {
       title: "Jack Burger",
       description: "Plataforma de menú para un pequeño local.",
       tags: ["Next.js", "Stripe", "Tailwind CSS"],
-      hrfCode: `https://jbocese.com`,
-      hrfDemo: `https://google.com`
+      hrfCode: `https://google.com`,
+      hrfDemo: `https://jack-burger.vercel.app`
     }
   ]
 

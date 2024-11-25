@@ -1,5 +1,5 @@
 import { ScrollRevealEffect, Button, ScrollRevealRightEffect } from "@/app/utils";
-import Image from "next/image";
+import { Image } from "@nextui-org/react";
 
 export default function Hero() {
   return (
@@ -18,12 +18,8 @@ export default function Hero() {
         </div>
       </section>
       <ScrollRevealRightEffect>
-          <div>
-            <Image
-              src="/media/joaoDev.webp"
-              alt="Joao Dev"
-              className="absolute bottom-0 left-0 sm:w-80 w-40 h-auto"
-            />
+          <div className="absolute bottom-0 left-0 sm:w-80 w-40 h-auto">
+            <Image src="/media/joaoDev.webp" alt="JoaoDev" />
           </div>
         </ScrollRevealRightEffect>
     </>
