@@ -4,7 +4,7 @@ import { Image } from "@nextui-org/react";
 export default function About() {
   return (
     <section className="flex justify-center items-center w-full py-16" id="about">
-      <div className="bg-section py-16 rounded-3xl w-full text-foreground">
+      <div className="bg-sectionColor py-16 rounded-3xl w-full text-foreground">
         <ScrollRevealEffect>
           <h2 className="text-3xl font-bold mb-8 text-center">Sobre mí</h2>
         </ScrollRevealEffect>

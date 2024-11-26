@@ -1,5 +1,5 @@
 import { Button, ScrollRevealEffect, ScrollRevealRightEffect } from '@/app/utils';
-import { Image } from "@nextui-org/react";
+import {Image} from "@nextui-org/image";
 
 interface ButtonNavProps {
   title?: string;
@@ -7,6 +7,8 @@ interface ButtonNavProps {
   hrfCode?: string;
   hrfDemo?: string;
   tag?: { name: string; icon: React.ReactNode }[];
+  imageUrl?: string;         // URL de la imagen
+  imageAlt?: string;         // Texto alternativo para la imagen (accesibilidad)
 }
 
 export default function Cards({
@@ -14,13 +16,15 @@ export default function Cards({
   description = '',
   hrfCode = '',
   hrfDemo = '',
-  tag = []
+  imageAlt = '',
+  imageUrl = '',
+  tag = [],
 }: ButtonNavProps) {
 
   return (
     <>
       <ScrollRevealEffect>
-        <div className="bg-section rounded-3xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div className="bg-sectionColor rounded-3xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
           <div className="flex justify-center">
             <ScrollRevealRightEffect>
               <p className="text-2xl font-semibold">{title}</p>
@@ -48,9 +52,10 @@ export default function Cards({
             </ScrollRevealRightEffect>
             <div className="pt-5">
               <Image
-                alt="ecommerce"
+                isZoomed
+                alt={imageAlt}
                 className="object-cover object-center w-full h-full block rounded-xl"
-                src="https://dummyimage.com/420x260"
+                src={imageUrl || "Image"}
               />
             </div>
             <div className="flex justify-around pt-5">

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function SocialMedia() {
   return (
     <div className="grid justify-center">
-      <span className='text-lg'>Social Media</span>
+      
       <div className='sm:flex grid pt-3'>
         {socialMedia.map((item) => (
           <Link

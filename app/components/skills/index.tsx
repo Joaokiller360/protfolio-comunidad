@@ -1,23 +1,10 @@
 import { Skil, ScrollRevealRightEffect } from '@/app/utils';
-import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, SiTailwindcss, SiWordpress } from 'react-icons/si';
+import { skills } from '@/data';
 
 export default function Skill() {
-  const skills = [
-    { name: "HTML", icon: <FaHtml5 /> },
-    { name: "CSS", icon: <FaCss3Alt /> },
-    { name: "TypeScript", icon: <SiTypescript /> },
-    { name: "React", icon: <FaReact /> },
-    { name: "Next.js", icon: <SiNextdotjs /> },
-    { name: "MongoDB", icon: <SiMongodb /> },
-    { name: "PostgreSQL", icon: <SiPostgresql /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-    { name: "Git", icon: <FaGitAlt /> },
-    { name: "Wordpress", icon: <SiWordpress /> },
-  ];
 
   return (
-    <section className="py-16 fade-in">
+    <section className="py-16 fade-in" id='my-skills'>
       <ScrollRevealRightEffect>
         <h2 className="text-3xl font-bold mb-8 text-center">Mis Habilidades</h2>
       </ScrollRevealRightEffect>

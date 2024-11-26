@@ -1,5 +1,6 @@
-import { ScrollRevealEffect, Button, ScrollRevealRightEffect, SocialMedia } from "@/app/utils";
+import { ScrollRevealEffect, Button, ScrollRevealRightEffect, SocialMedia, Email } from "@/app/utils";
 import { Image } from "@nextui-org/react";
+import { userName } from '@/data'
 
 export default function Hero() {
   return (
@@ -7,13 +8,18 @@ export default function Hero() {
       <section className="w-full h-dvh flex items-center justify-center text-center bg-gradient-to-br from-secondary to-background relative">
         <div className="fade-in max-w-4xl">
           <ScrollRevealEffect>
-            <h1 className="text-5xl font-bold mb-4 gradient-text">
-              Hola, soy Joao Barres 👋
-            </h1>
-            <p className="text-xl mb-4 text-muted-foreground">
-              Desarrollador Web / Junior
-            </p>
-            
+            {userName.map((user, index) => (
+              <div key={index}>
+                <h1 className="text-5xl font-bold mb-4 gradient-text">
+                  Hola, soy {user.userName} 👋
+                </h1>
+                <p className="text-xl mb-4 text-muted-foreground">
+                  {user.dev}
+                </p>
+
+                <Email text={`${user.email}`} />
+              </div>
+            ))}
             <SocialMedia />
 
           </ScrollRevealEffect>

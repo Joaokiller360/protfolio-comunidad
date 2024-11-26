@@ -1,4 +1,4 @@
-import { Hero, About, Skill, Projects } from '@/app/components/index'
+import { Hero, About, Skill, Projects, Footer } from '@/app/components/index'
 
 export default function Home() {
   return (
@@ -6,9 +6,12 @@ export default function Home() {
       <Hero />
       <main className="container grid justify-center items-center mx-auto px-5">
         <About />
-        <Projects />
         <Skill />
+        <Projects />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

@@ -6,13 +6,6 @@ export default function NotFound({ error }: { error: unknown }) {
   return (
     <>
       <section className='text-gray-100 w-full'>
-        <div className='absolute inset-0 w-full h-full overflow-hidden z-0'>
-          <video className='absolute top-1/2 left-1/2 w-auto min-w-full min-h-full max-w-none transform -translate-x-1/2 -translate-y-1/2' autoPlay loop muted>
-            <source src='/video/fondo.mp4' type='video/mp4' />
-            JB OCEANIC SERVICES S.A.
-          </video>
-          <div className='absolute inset-0 bg-gradient-to-t from-customBlue via-transparent to-customBlue' />
-        </div>
         <div className='relative w-full h-auto overflow-hidden lg:gap-8 xl:gap-0 lg:py-60 pt-60 lg:px-0 px-10 text-center z-10'>
           <p className='mt-4 text-3xl font-bold sm:text-5xl text-customRed'>404</p>
           <h1 className='mt-4 text-3xl font-bold tracking-tight sm:text-5xl'>Página No Encontrada</h1>

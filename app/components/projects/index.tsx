@@ -16,6 +16,7 @@ export default function Projects() {
               tag={project.tag}
               hrfCode={project.hrfCode}
               hrfDemo={project.hrfDemo}
+              imageUrl={project.imageUrl}
             />
           ))}
         </div>

@@ -3,17 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #72757e;
+  --background: #16161a;
   --foreground: #fffffe;
   --background-section: #16161a; /* Color para la sección en modo claro */
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #16161a;
-    --foreground: #fffffe;
-    --background-section: #242629; /* Color para la sección en modo oscuro */
-  }
 }
 
 body {

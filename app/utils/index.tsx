@@ -3,6 +3,8 @@ import { Button, ButtonNav } from './button/button'
 import { Skills, Skil } from './skills/skills'
 import Cards from './cards/cads'
 import SocialMedia from './socialMedia/socialMedia'
+import { CheckIcon, CopyIcon } from './icons/icons'
+import {Email} from './emails'
 
 export {
   ScrollRevealEffect,
@@ -12,5 +14,8 @@ export {
   Skills,
   Skil,
   Cards,
-  SocialMedia
+  SocialMedia,
+  CopyIcon,
+  CheckIcon,
+  Email
 }
