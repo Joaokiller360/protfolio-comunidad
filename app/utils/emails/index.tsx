@@ -22,7 +22,7 @@ export const Email: React.FC<CopyToClipboardProps> = ({ text }) => {
   return (
     <div className="flex items-center justify-center pb-3">
       <div className="rounded-full bg-colorButton/50 border-colorButton border-2 px-4 py-2 space-x-2 flex">
-        <span className="text-white">{text}</span>
+        <span className="text-white font-semibold">{text}</span>
         <button
           onClick={handleCopy}
           className="bg-transparent text-white rounded hover:underline flex items-center transition-transform delay-100"

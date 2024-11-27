@@ -20,7 +20,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    social: 'Linkedin',
+    social: 'GitHub',
     icon: <FaGithub size={25} strokeWidth={2} />,
     link: 'https://github.com/Joaokiller360'
   }
@@ -64,6 +64,7 @@ export const skills = [
   { name: "Tailwind CSS", icon: <SiTailwindcss /> },
   { name: "Git", icon: <FaGitAlt /> },
   { name: "Wordpress", icon: <SiWordpress /> },
+  { name: 'Strapi', icon: <SiStrapi/> }
 ];
 
 export const projects = [
