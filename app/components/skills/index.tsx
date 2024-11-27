@@ -6,7 +6,7 @@ export default function Skill() {
   return (
     <section className="py-16 fade-in" id='my-skills'>
       <ScrollRevealRightEffect>
-        <h2 className="text-3xl font-bold mb-8 text-center">Mis Habilidades</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
       </ScrollRevealRightEffect>
       <ScrollRevealRightEffect>
         <div className="flex flex-wrap justify-center gap-3">

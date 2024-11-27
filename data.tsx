@@ -5,9 +5,9 @@ import { SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, SiTailwindcss, SiWo
 
 export const userName = [
   {
-    userName: 'Joao Barres',
-    email: 'joao1.joao3@gmail.com',
-    dev: 'Desarrollador Web / Junior'
+    userName: 'Your Name',
+    email: 'yourname@mail.com',
+    dev: 'Skill'
   }
 ]
 
@@ -26,28 +26,34 @@ export const socialMedia = [
   }
 ]
 
+export const about = [
+  {
+    about: 'About',
+    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`
+  }
+]
 export const itemsNavbar = [
   {
     id: 1,
-    title: "Inicio",
+    title: "Home",
     icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
     link: "/",
   },
   {
     id: 2,
-    title: "Sobre Mi",
+    title: "About",
     icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
     link: "#about",
   },
   {
     id: 3,
-    title: "Mis Habilidades",
+    title: "Skills",
     icon: <Rocket size={25} color="#fff" strokeWidth={1} />,
     link: "#my-skills",
   },
   {
     id: 4,
-    title: "Mis Projectos",
+    title: "Projects",
     icon: <BookText size={25} color="#fff" strokeWidth={1} />,
     link: "#projects",
   }
@@ -57,62 +63,46 @@ export const skills = [
   { name: "HTML", icon: <FaHtml5 /> },
   { name: "CSS", icon: <FaCss3Alt /> },
   { name: "TypeScript", icon: <SiTypescript /> },
-  { name: "React", icon: <FaReact /> },
-  { name: "Next.js", icon: <SiNextdotjs /> },
-  { name: "MongoDB", icon: <SiMongodb /> },
-  { name: "PostgreSQL", icon: <SiPostgresql /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-  { name: "Git", icon: <FaGitAlt /> },
-  { name: "Wordpress", icon: <SiWordpress /> },
-  { name: 'Strapi', icon: <SiStrapi/> },
-  { name: 'Framer', icon: <SiFramer/> },
 ];
 
 export const projects = [
   {
-    title: "JB OCESE",
-    description: "Una web moderna creada para una empresa.",
+    title: "Exampol 1",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     tag: [
+      { name: "HTML", icon: <FaHtml5 /> },
+      { name: "CSS", icon: <FaCss3Alt /> },
       { name: "TypeScript", icon: <SiTypescript /> },
-      { name: "React", icon: <FaReact /> },
-      { name: "Next.js", icon: <SiNextdotjs /> },
-      { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-      { name: "Git", icon: <FaGitAlt /> },
     ],
     hrfCode: `#projects`,
-    hrfDemo: `https://jbocese.com`,
-    imageUrl: "/mockup/mokaps-jb-ocese.png",
+    hrfDemo: ``,
+    imageUrl: "https://dummyimage.com/420x260",
     imageAlt: "A descriptive image for the button",
   },
   {
-    title: "Jack Burger",
-    description: "Plataforma de menú para un pequeño local.",
+    title: "Exampol 2",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     tag: [
+      { name: "HTML", icon: <FaHtml5 /> },
+      { name: "CSS", icon: <FaCss3Alt /> },
       { name: "TypeScript", icon: <SiTypescript /> },
-      { name: "React", icon: <FaReact /> },
-      { name: "Next.js", icon: <SiNextdotjs /> },
-      { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-      { name: "Git", icon: <FaGitAlt /> },
-      { name: "Strapi", icon: <SiStrapi /> },
     ],
     hrfCode: `#projects`,
-    hrfDemo: `https://jack-burger.vercel.app`,
-    imageUrl: "/mockup/mockup-jack-burger.png",
+    hrfDemo: ``,
+    imageUrl: "https://dummyimage.com/420x260",
     imageAlt: "A descriptive image for the button",
   },
   {
-    title: "Portafolio Para La comunidad",
-    description: "Este es un pequeño portafolio que puedes agarrar como inspiracion.",
+    title: "Exampol 1",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     tag: [
+      { name: "HTML", icon: <FaHtml5 /> },
+      { name: "CSS", icon: <FaCss3Alt /> },
       { name: "TypeScript", icon: <SiTypescript /> },
-      { name: "React", icon: <FaReact /> },
-      { name: "Next.js", icon: <SiNextdotjs /> },
-      { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-      { name: "Git", icon: <FaGitAlt /> },
     ],
     hrfCode: `#projects`,
     hrfDemo: `/`,
-    imageUrl: "/mockup/mockup-portfolio.png",
+    imageUrl: "https://dummyimage.com/420x260",
     imageAlt: "A descriptive image for the button",
   }
 ];
