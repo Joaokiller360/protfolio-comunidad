@@ -14,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="!scroll-smooth">
+      <head>
+        <link rel="icon" href="/media/joaoDev.webp" />
+      </head>
       <body>
         <Header />
         {children}

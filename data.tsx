@@ -1,7 +1,7 @@
 import { BookText, HomeIcon, UserRound, Rocket } from "lucide-react";
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, SiTailwindcss, SiWordpress, SiStrapi } from 'react-icons/si';
+import { SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, SiTailwindcss, SiWordpress, SiStrapi, SiFramer } from 'react-icons/si';
 
 export const userName = [
   {
@@ -64,7 +64,8 @@ export const skills = [
   { name: "Tailwind CSS", icon: <SiTailwindcss /> },
   { name: "Git", icon: <FaGitAlt /> },
   { name: "Wordpress", icon: <SiWordpress /> },
-  { name: 'Strapi', icon: <SiStrapi/> }
+  { name: 'Strapi', icon: <SiStrapi/> },
+  { name: 'Framer', icon: <SiFramer/> },
 ];
 
 export const projects = [
