@@ -5,7 +5,7 @@ Aquí encontrarás una muestra de mi trabajo y pasión por el desarrollo web. Ex
 
 Donde vas a poder cambiar los datos muy facil mente ingresando al archivo data.tsx
 
-<img src='https://raw.githubusercontent.com/Joaokiller360/protfolio-comunidad/main/public/screen-phote.png' alt='Screen' />
+<img src='https://raw.githubusercontent.com/Joaokiller360/protfolio-comunidad/main/public/screen-phote/screen.png' alt='Screen' />
 
 ### Tecnologias Implementadas
 
