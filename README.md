@@ -1,8 +1,11 @@
 # Hola, Me llamo Joao ! 👋
 
-## 🚀 ¡Bienvenido a mi portafolio digital!
+## 🚀 ¡Bienvenido a este Templates gratis que puedes usar para mostrar tus conocimientos!
 Aquí encontrarás una muestra de mi trabajo y pasión por el desarrollo web. Explore y descubra cómo puedo agregar valor a su proyecto.
 
+Donde vas a poder cambiar los datos muy facil mente ingresando al archivo data.tsx
+
+<link src='/screen-phote/screen.png' />
 ### Tecnologias Implementadas
 
 || **React** || - || **React-dom** || - || **Nextui-org** || - || **TailwindCSS** || - || **Motion** || - || **Emailjs** ||
@@ -17,4 +20,4 @@ Español
 
 ### Autor
 
-- [@Joaokiller360](https://www.github.com/Joaokiller360)
+- [@Joaokiller360](https://www.github.com/Joaokiller360)# protfolio-comunidad
