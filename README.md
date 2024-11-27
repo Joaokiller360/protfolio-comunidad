@@ -5,7 +5,8 @@ Aquí encontrarás una muestra de mi trabajo y pasión por el desarrollo web. Ex
 
 Donde vas a poder cambiar los datos muy facil mente ingresando al archivo data.tsx
 
-<link src='/screen-phote/screen.png' />
+<img src='https://raw.githubusercontent.com/Joaokiller360/protfolio-comunidad/main/public/screen-phote.png' alt='Screen' />
+
 ### Tecnologias Implementadas
 
 || **React** || - || **React-dom** || - || **Nextui-org** || - || **TailwindCSS** || - || **Motion** || - || **Emailjs** ||
